@@ -1,35 +1,61 @@
 {
-  "uuid": "133215f0-cf20-4c05-997b-3c9be5a64e5b",
-  "shortName": "Pebble.js",
-  "longName": "Pebble.js",
-  "companyName": "Meiguro",
-  "versionCode": 1,
-  "versionLabel": "0.4",
-  "capabilities": [ "configurable" ],
-  "watchapp": {
-    "watchface": false
-  },
   "appKeys": {},
+  "capabilities": [
+    ""
+  ],
+  "companyName": "nick_skriloff@yahoo.com",
+  "longName": "ReminderPrototype",
+  "projectType": "pebblejs",
   "resources": {
     "media": [
       {
+        "file": "images/menu_icon.png",
         "menuIcon": true,
-        "type": "png",
         "name": "IMAGE_MENU_ICON",
-        "file": "images/menu_icon.png"
-      }, {
-        "type": "png",
+        "type": "png"
+      },
+      {
+        "file": "images/logo_splash.png",
         "name": "IMAGE_LOGO_SPLASH",
-        "file": "images/logo_splash.png"
-      }, {
-        "type": "png",
+        "type": "png"
+      },
+      {
+        "file": "images/tile_splash.png",
         "name": "IMAGE_TILE_SPLASH",
-        "file": "images/tile_splash.png"
-      }, {
-        "type": "font",
+        "type": "png"
+      },
+      {
+        "file": "fonts/UbuntuMono-Regular.ttf",
         "name": "MONO_FONT_14",
-        "file": "fonts/UbuntuMono-Regular.ttf"
+        "type": "font"
+      },
+      {
+        "file": "images/pebble.png",
+        "name": "IMAGES_PEBBLE_PNG",
+        "type": "png"
+      },
+      {
+        "file": "images/yes.png",
+        "name": "IMAGES_YES_PNG",
+        "type": "png"
+      },
+      {
+        "file": "images/no.png",
+        "name": "IMAGES_NO_PNG",
+        "type": "png"
       }
     ]
-  }
+  },
+  "shortName": "ReminderPrototype",
+  "uuid": "18e9d00a-2783-4895-985f-e57f3a2bf0ce",
+  "versionCode": 1,
+  "versionLabel": "1.0",
+  "watchapp": {
+    "watchface": false
+  },
+  "targetPlatforms": [
+    "aplite",
+    "basalt"
+  ],
+  "sdkVersion": "3"
 }
