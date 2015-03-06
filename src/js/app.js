@@ -60,6 +60,7 @@ prompt.on('click', 'up', function() {
     //send request to firebase
     //set interval
     showBodyMessage('Good Job');
+    console.log("Hi Nick!!!")
 });
 
 prompt.on('click', 'down', function() {
