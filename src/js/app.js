@@ -53,14 +53,31 @@ watchFace.show();
 
 prompt.action({
     up: 'images/yes.png',
-    down: 'images/no.png',
+    down: 'images/no.png'
 });
+
+function callAjax() {
+    ajax(
+        {
+            url: 'http://api.theysaidso.com/qod.json',
+            type: 'json'
+        },
+        function(data, status, request) {
+            console.log('Quote of the day is: ' + data.contents.quote);
+        },
+        function(error, status, request) {
+            console.log('The ajax request failed: ' + error);
+        }
+    );
+}
+
 
 prompt.on('click', 'up', function() {
     //send request to firebase
     //set interval
     showBodyMessage('Good Job');
-    console.log("Hi Nick!!!")
+    console.log("Hi Nick!!!");
+    callAjax();
 });
 
 prompt.on('click', 'down', function() {
@@ -90,8 +107,6 @@ ajax(
 //   var description = data.weather[0].description;
 //   description = description.charAt(0).toUpperCase() + description.substring(1);
 //     console.log('description is ' + description);
-
-    
   },
   function(error) {
     // Failure!
