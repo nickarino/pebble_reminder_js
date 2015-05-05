@@ -10,11 +10,11 @@
         // require firebase.js
         //var
         //Firebase = require('src/js/vendor/firebase.js'),
-        Firebase = require('firebase'),
+        //Firebase = require('firebase'),
 
         //firebase ref
         //var
-        firebaseRef = new Firebase("https://pebblereminder.firebaseio.com/"),
+        //firebaseRef = new Firebase("https://pebblereminder.firebaseio.com/"),
         //var chatRef = new Firebase('https://fiery-fire-2493.firebaseio.com/chat');
 
         //set up cards
